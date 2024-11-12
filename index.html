@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhizNova.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Slidebar -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        #logo img{
+            height: 10rem;
+            width: 12rem;
+        }
+        #first{
+            background-color:black;
+        }
+        #second{
+            background-color: rgb(5, 5, 5);
+        }
+        #downlogo img{
+            height: 12rem;
+            width: 15rem;
+        }
+        #headlogo{
+            height: 4rem;
+            width:6rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row fixed-top" id="second">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+
+
+                    <a href="CurioQuant.html">
+                        <img src="whiznova-low-resolution-logo-white-on-black-background.png" class="img-fluid ms-3" id="headlogo">
+                    </a>
+                    
+                    <i class="fa-solid fa-user fs-5 ms-4" style="color: aliceblue;"></i>
+                    <i class="fa-regular fa-heart fs-4 ms-3" style="color: aliceblue;"></i>
+                    <i class="fa-solid fa-cart-shopping fs-5 ms-4" style="color: aliceblue;"></i>
+                    
+                    
+
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <ul class="navbar-nav mx-5 text-center"> 
+                            <li class="nav-item dropdown ms-5">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                    CLOTHING
+                                </a>
+                                <div class="dropdown-menu ms-5">
+                                    <a href="jeansformen.html" class="dropdown-item">MEN</a>
+                                    <a href="kurtasforwomen.html" class="dropdown-item">WOMEN</a>
+                                    <a href="kidsethinicjackets.html" class="dropdown-item">KIDS</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown ms-5">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                    WATCHES
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="watchesformen.html" class="dropdown-item">MEN</a>
+                                    <a href="watchesforwomen.html" class="dropdown-item">WOMEN</a>
+                                    <a href="watchesforkids.html" class="dropdown-item">KIDS</a>
+                                </div>
+                                
+                            </li>
+                            <li class="nav-item dropdown ms-5">
+                                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                                   FOOTWEAR
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a href="mensfootwear.html" class="dropdown-item">MEN</a>
+                                    <a href="" class="dropdown-item">WOMEN</a>
+                                    <a href="" class="dropdown-item">KIDS</a>
+                                </div>
+                                
+                            </li>
+                            <li class="nav-item ms-5">
+                                <a href="" class="nav-link">LUXE</a>
+                            </li>
+                        </ul>
+
+
+                        <form class="form-inline d-flex ms-auto" action="">
+					        <input type="search" class="form-control mr-sm-2" placeholder="Search">
+					        <button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+                        </form>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+        
+
+ <!-- carousel -->
+        
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="margin-top: 4rem;">
+                <div class="carousel-item active">
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h2d/h70/30184903606302/watches_Top-Banner-web_eoss_23.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h9e/h57/30165935194142/indianwear_Top-Banner-web--2023-06--new-revise-eoss.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h64/hc6/30154235609118/private-brand_Top-Banner-web_sersxr_434.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button><br>
+            </div>
+
+
+            <div class="row text-center">
+                <h1><b>Featured Brands</b></h1>
+            </div> <br>
+
+
+<!-- Carousel 2 -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/hea/had/30190011842590/puma-static-web_eoss-23.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h63/hc2/30177679278110/Juniper-web--2023-06--12-sp-brands_hp-wom.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://sslimages.shoppersstop.com/sys-master/root/h97/h71/30190039466014/michale-kors-armani-static-web_eoss-23.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+              <div class="row mt-5">
+                <img src="https://sslimages.shoppersstop.com/sys-master/root/h67/h12/30162726387742/Unbelievable-Discounts-web_7685.gif" alt="">
+            </div> <br>   
+            
+<!-- Grid-1 -->
+
+    <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-4 col-4">
+                        <img src="https://sslimages.shoppersstop.com/sys-master/root/h06/h3b/30154871635998/zink-london_3x3-Widget_jdbhfiadbj_7238.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-4 col-4">
+                        <img src="https://sslimages.shoppersstop.com/sys-master/root/hf5/h37/30154871701534/Indya_3x3-Widget_xsugyxusy_3273267342.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-4 col-4">
+                        <img src="https://sslimages.shoppersstop.com/sys-master/root/h36/h34/30154871832606/Issey-Miyake__sdjhsgxs_76223.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                </div>
+
+
+            
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 col-lg-4 col-4">
+                        <img src="https://sslimages.shoppersstop.com/sys-master/root/h06/h3b/30154871635998/zink-london_3x3-Widget_jdbhfiadbj_7238.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-4 col-4">
+                        <img src="https://sslimages.shoppersstop.com/sys-master/root/hf5/h37/30154871701534/Indya_3x3-Widget_xsugyxusy_3273267342.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+
+                    <div class="col-sm-12 col-md-3 col-lg-4 col-4">
+                        <img src="https://sslimages.shoppersstop.com/sys-master/root/h36/h34/30154871832606/Issey-Miyake__sdjhsgxs_76223.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                </div>
+
+
+
+                        <div class="row mt-5">
+                          <img src="https://sslimages.shoppersstop.com/sys-master/root/hae/h56/30154273783838/rush-hour-madaness-web_485677484.gif" alt="">
+                      </div>
+  
+  
+            <!-- grid2-->
+                          <div class="row mt-3">
+                              <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                              <img src="https://sslimages.shoppersstop.com/sys-master/root/h50/h52/30209742209054/adidas_Rush-Hours-4-Widgets-Web_eoss-23.gif" alt="">
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                              <img src="https://sslimages.shoppersstop.com/sys-master/root/h3e/h13/30215784235038/Latin-Quaters_Rush-Hours-4-Widgets-Web----revise-home-page_2023-06-20.gif" alt="">
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                              <img src="https://sslimages.shoppersstop.com/sys-master/root/hf3/hee/30201385418782/casio_Rush-Hours-4-Widgets-Web_eoss-23.gif" alt="">
+                              </div>
+                              <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                              <img src="https://sslimages.shoppersstop.com/sys-master/root/hc8/h86/30218370056222/skinn_Rush-Hours-4-Widgets-Web_eoss-23.gif" alt="">
+                              </div>
+                          </div>
+
+
+                          <div class="row  mt-5 text-center">
+                            <h1><b>Fossil X Star Wars Collection</b></h1>
+                        </div>
+                    
+    <!-- Slidebar -->
+
+                  <div class="main-carousel">
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h80/h48/29880005328926/WFIFLE1167SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/hee/h2c/29880018796574/WFIFLE1168SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h23/he4/29880011489310/WFIFLE1173SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h48/hee/29880008146974/WFIFLE1166SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h05/ha2/29879993335838/WFIFLE1164SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/he1/h17/29880001593374/WFIFSE1105_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/hdc/h2a/29880014700574/WFIFLE1172SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h9a/h29/29879970856990/WFIFSE1104_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h04/hfb/29879981211678/WFIFLE1171SET_NoColour.jpg_136Wx204H" alt=""></div>
+                    <div class="cell"><img src="https://sslimages.shoppersstop.com/sys-master/images/h50/h36/29879950802974/WFIFLE1169SET_NoColour.jpg_136Wx204H" alt=""></div>
+                  </div>
+
+                            <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+                            <script type="text/javascript">
+                                $('.main-carousel').flickity({
+                                    // options
+                                    cellAlign: 'left',
+                                    wrapAround:true,
+                                    freeScroll:true
+                                    });
+                            </script>
+
+
+
+
+                        <div class="row  mt-5 text-center">
+                            <h1><b>Scent-Sational Selects</b></h1>
+                        </div> <br>
+
+ <!-- Carousel 3 -->
+
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://sslimages.shoppersstop.com/sys-master/root/h97/h7e/30174872502302/chopard_static-web-----2023-06--10--hp-fragrance.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://sslimages.shoppersstop.com/sys-master/root/h56/h82/30174872633374/Salvatore-Ferrogamo_static-web----2023-06--10--hp-fragrance.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://sslimages.shoppersstop.com/sys-master/root/hd4/h89/30174872895518/Valentino_static-web--2023-06--10--hp-fragrance.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+            </div>
+
+         <!-- Footer -->
+
+                            <div class="row mt-5 offset-5" id="downlogo">
+                                <img src="whiznova-high-resolution-logo-black-on-white-background.png" alt="">
+                            </div>
+
+            <div class="row mt-5">
+                  <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                      <ul style="list-style-type: none;">
+                        <h5><b>SHOP</b></h5><br>
+                        <li>Festive</li><br>
+                        <li>Wedding</li><br>
+                        <li>Party</li><br>
+                        <li>Shopping</li>
+                      </ul>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                    <ul style="list-style-type: none;">
+                      <h5><b>GET TO KNOW US</b></h5><br>
+                      <li>FAQ</li><br>
+                      <li>Blog</li><br>
+                      <li>About Us</li><br>
+                      <li>Media</li><br>
+
+                    </ul>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                    <ul style="list-style-type: none;">
+                      <h5><b>USER POLICY</b></h5><br>
+                      <li>Privacy Policy</li><br>
+                      <li>Terms & Conditions</li><br>
+                      <li>Disclaimer</li><br>
+                      <li>Shipping Policy</li>
+                  </ul>
+                  </div>
+
+                  <div class="col-sm-6 col-md-6 col-lg-3 col-12">
+                    <ul style="list-style-type: none;">
+                      <h5><b>CONTACT US</b></h5><br>
+                      <li>+91 - 9365 9966 33</li><br>
+                      <li>hello@WhizNova.com</li><br>
+                      <li>Stores</li><br>
+                      <li>Contact Us</li>
+                    </ul>
+                  </div>
+
+                  <hr class="w-10 m-auto"><br><br><br>
+
+                  <a href="#top"><button class="" style="color: aliceblue; background-color: rgb(39, 40, 39);  width: 3.6rem; height: 2.5rem;">UP</button></a>
+            </div>
+              </div>
+</body>
+</html>
